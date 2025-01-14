@@ -4,7 +4,7 @@ body {
 
 .header, .footer {
     background-color: #1F2937;
-    color:white;
+    color:#E5E7EB;
 }
 
 .quote-section {
@@ -13,5 +13,5 @@ body {
 
 .button, .call-to-action {
     background-color: #3882F6;
-    color:white;
+    color:#E5E7EB;
 }
