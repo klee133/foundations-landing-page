@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color:white;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.button, .call-to-action {
+    background-color: #3882F6;
+    color:white;
+}
