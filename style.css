@@ -13,7 +13,9 @@ body {
 }
 
 .info-section {
-    padding: 0px 300px;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 280px 130px;
 }
 
 .quote-section {
@@ -56,6 +58,40 @@ body {
     background-color: gray;
 }
 
+.header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.info-items {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.item {
+    justify-items: center;
+}
+
+.item img {
+    border: solid;
+    border-width: 4px;
+    border-color: #3882F6;
+    border-radius: 16px;
+    min-width: 160px;
+    min-height: 160px;
+
+}
+
+.item .text{
+    max-width: 160px;
+    text-align: center;
+    padding-top: 4px;
+    color: #1F2937;
+}
+
 button, .call-to-action {
     background-color: #3882F6;
     color: #E5E7EB;
@@ -75,7 +111,7 @@ button {
     color: #F9FAF8;
 }
 
-.hero-sec {
+.hero-sec, .text {
     font-size: 18px;
     color: #E5E7EB;
 }
