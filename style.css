@@ -125,6 +125,12 @@ button {
     border-width: 2px;
 }
 
+.footer {
+    text-align: center;
+    font-size: 18px;
+    padding: 40px;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
