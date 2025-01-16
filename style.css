@@ -20,22 +20,18 @@ body {
 
 .quote-section {
     background-color: #E5E7EB;
-    padding: 0px 300px;
+    padding: 130px 320px;
+    display: block;
 }
 
 .last-section {
-    padding: 0px 210px;
+    padding: 100px 210px;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
     padding: 16px 0px 0px;
-}
-
-.nav-bar .left {
-    font-size: 24px;
-    color: #F9FAF8;
 }
 
 .nav-bar .right {
@@ -92,9 +88,26 @@ body {
     color: #1F2937;
 }
 
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.call-to-action .logo {
+    padding-bottom: 4px;
+}
+
 button, .call-to-action {
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: white;
     border-radius: 8px;
 }
 
@@ -106,6 +119,17 @@ button {
     margin: 15px 0px;
 }
 
+.call-to-action button {
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .hero-main {
     font-size: 48px;
     color: #F9FAF8;
@@ -114,4 +138,10 @@ button {
 .hero-sec, .text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.cite {
+    font-size: 24px;
+    color: #1F2937;
+    text-align: right;
 }
